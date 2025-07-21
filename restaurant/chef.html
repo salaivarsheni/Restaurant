@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi cuisine restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="m-0 p-0">
+
+<div>
+<nav class="h-30 sticky">
+    <ul class="flex list-none m-0 p-0 bg-[#A34054]">
+       <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+    <a href="hotel.html" onclick="if(window.location.pathname.endsWith('hotel.html')){location.reload();}">Home</a>
+</li>
+
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="chef.html" class="text-amber-50 no-underline">Chef</a>
+        </li>
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="contact.html" class="text-amber-50 no-underline"  >Contact</a>
+        </li>
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="about.html" class="text-amber-50 no-underline" >About</a>
+        </li>
+    </ul>
+</nav>
+ </div>
+ <div class="mt-3.5 bg-blue-50 min-h-screen flex justify-center items-center">
+
+    <div class="bg-blue-300 flex flex-wrap gap-6 p-6 justify-center items-center rounded-2xl shadow-2xl max-w-6xl">
+
+        <!-- Chef 1 -->
+        <div class="flex-1 basis-[250px] max-w-[300px] bg-[#f5f5f5] rounded-xl shadow-lg p-8 text-center relative">
+            <img src="a.jpeg" alt="Isabella Rossi"
+                class="w-[120px] h-[120px] rounded-full object-cover border-4 border-white shadow-md mt-[-90px] mb-4 bg-[#eee] mx-auto">
+            <p class="font-sans font-bold text-lg text-[#662249] mb-2">Isabella Rossi – Head Chef</p>
+            <p class="text-sm text-center text-gray-600">
+                Isabella Rossi brings the soul of Italian kitchens to ArtsofCooking. With over 12 years of global culinary experience, she leads the team with passion and precision, crafting dishes that blend authenticity with modern flair.
+            </p>
+        </div>
+
+        <!-- Chef 2 -->
+        <div class="flex-1 basis-[250px] max-w-[300px] bg-[#f5f5f5] rounded-xl shadow-lg p-8 text-center relative">
+            <img src="b.jpeg" alt="Sakura Tanaka"
+                class="w-[120px] h-[120px] rounded-full object-cover border-4 border-white shadow-md mt-[-90px] mb-4 bg-[#eee] mx-auto">
+            <p class="font-sans font-bold text-lg text-[#662249] mb-2">Sakura Tanaka – Pastry Chef</p>
+            <p class="text-sm text-center text-gray-600">
+                Sakura Tanaka is a dessert artist known for her minimalist yet exquisite pastry creations. Trained in Tokyo and Paris, she creates fusion desserts that balance sweetness with subtlety, making each bite unforgettable.
+            </p>
+        </div>
+
+        <!-- Chef 3 -->
+        <div class="flex-1 basis-[250px] max-w-[300px] bg-[#f5f5f5] rounded-xl shadow-lg p-8 text-center relative">
+            <img src="c.jpeg" alt="Amélie Dubois"
+                class="w-[120px] h-[120px] rounded-full object-cover border-4 border-white shadow-md mt-[-90px] mb-4 bg-[#eee] mx-auto">
+            <p class="font-sans font-bold text-lg text-[#662249] mb-2">Amélie Dubois – Sous Chef</p>
+            <p class="text-sm text-center text-gray-600">
+                Amélie Dubois is a culinary curator with a deep love for fresh produce and balanced flavors. She designs seasonal menus and oversees ingredient selection, ensuring that every dish is a harmonious blend of taste and texture.
+            </p>
+        </div>
+
+    </div>
+    </div>
+
+</body>

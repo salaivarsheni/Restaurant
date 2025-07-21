@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi cuisine restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="m-0 p-0">
+
+<!-- Navbar -->
+ <div>
+<nav class="h-30 sticky">
+    <ul class="flex list-none m-0 p-0 bg-[#A34054]">
+       <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+    <a href="hotel.html" onclick="if(window.location.pathname.endsWith('hotel.html')){location.reload();}">Home</a>
+</li>
+
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="chef.html" class="text-amber-50 no-underline">Chef</a>
+        </li>
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="contact.html" class="text-amber-50 no-underline"  >Contact</a>
+        </li>
+        <li class="block px-4 py-2 hover:bg-[#ED9E59] active:bg-[#662249] cursor-pointer">
+            <a href="about.html" class="text-amber-50 no-underline" >About</a>
+        </li>
+    </ul>
+</nav>
+ </div>
+
+ <section class="max-w-4xl mx-auto p-8 mt-10 bg-white rounded-2xl shadow-lg">
+        <h2 class="text-4xl font-extrabold mb-4 text-center">About Us</h2>
+        
+        <p class="text-lg mb-6 text-justify">
+            Welcome to <span class="font-bold">ArtsofCooking</span>, where culinary tradition meets creativity! 
+            Our restaurant is a celebration of flavors, textures, and the joy of shared meals. 
+            From sizzling grills to delicate desserts, we craft every dish with passion and precision.
+        </p>
+
+        <p class="text-lg leading-relaxed mb-6 text-justify">
+            At ArtsofCooking, our chefs blend time-honored techniques with modern twists to bring you an unforgettable dining experience. 
+            Whether you’re here for a family gathering, a romantic dinner, or just to explore new tastes, we promise to make every visit special.
+        </p>
+
+        <p class="text-lg leading-relaxed text-justify">
+            Join us and be part of our food journey. We don't just serve food—we serve art on a plate.
+        </p>
+
+        
+        <div class="mt-8 flex justify-center">
+            <img src="images.jpeg" alt="About ArtsofCooking" class="rounded-xl w-full  shadow-md object-cover">
+        </div>
+    </section>
+
+    
+    <footer class="bg-[#A34054] text-white text-center p-4 mt-12">
+        &copy; 2025 ArtsofCooking. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
